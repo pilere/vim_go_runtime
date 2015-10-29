@@ -1,12 +1,12 @@
-cd ~/.vim_go_runtime
+cd ~/tmp/vim_go_runtime
 
-echo 'set runtimepath^=~/.vim_go_runtime
-source ~/.vim_go_runtime/vimrc/basic.vim
-source ~/.vim_go_runtime/vimrc/filetypes.vim
-source ~/.vim_go_runtime/vimrc/plugins.vim
-source ~/.vim_go_runtime/vimrc/extended.vim
+echo 'set runtimepath^=~/tmp/vim_go_runtime
+source ~/tmp/vim_go_runtime/vimrc/basic.vim
+source ~/tmp/vim_go_runtime/vimrc/filetypes.vim
+source ~/tmp/vim_go_runtime/vimrc/plugins.vim
+source ~/tmp/vim_go_runtime/vimrc/extended.vim
 try
-source ~/.vim_go_runtime/custom_config.vim
+source ~/tmp/vim_go_runtime/custom_config.vim
 catch
 endtry' > ~/.vimrc.go
 
